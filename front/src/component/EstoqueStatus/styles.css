@@ -1,0 +1,52 @@
+.estoque-dados{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+.container-estoque{
+    max-width: 350px;
+    margin: 20px;
+}
+.conteudo-paper-estoque{
+    width: 350px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.conteudo-estoque-dados h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+.conteudo-estoque-dados h1{
+    font-size: 32px;
+    font-weight: 400;
+}
+.icon-color-1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #00A651;
+    text-align: center;
+    align-items: center;
+}
+.icons-ajustes{
+    font-size: 32px !important;
+    margin: 6px;
+    color: white;
+}
+hr{
+    margin: 10px;
+}
+.btn-saiba-mais{
+    text-align: right;
+    padding: 3px 10px 10px;
+    transition: .4s all ease-in;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-saiba-mais:hover{
+    color: #00A651;
+}

@@ -1,0 +1,9 @@
+.estoque-status{
+    margin-top: 10px;
+    width: 100%;
+}
+.conteudo-historicos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

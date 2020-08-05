@@ -1,0 +1,23 @@
+.MuiAppBar-colorPrimary{
+    background-color: #00A651 !important;
+}
+.dash-menu{
+    flex: 1;  
+}
+.MuiListItemIcon-root{
+ min-width: 50px;       
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: #757575;
+}
+a:active{
+    background-color: #00A651;
+}
+.texto-usuario{
+    text-transform: capitalize;
+}
+.perfil-user{
+    text-transform: capitalize;
+}

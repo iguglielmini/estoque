@@ -1,0 +1,40 @@
+.product-container{
+    width: 100%;
+}
+.product-container .title-product{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #f0f0f5;
+    box-shadow: 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 0 8px 8px 0;
+    margin-left: -9px;
+    margin-top: 10px;
+    padding: 15px 0;
+}
+.product-container .title-product h1{
+    padding-left: 10px;
+}
+
+.product-container .title-product a{
+    margin-right: 20px;
+}
+.button-adiconar{
+    background-color:  #ED1C24;
+    padding: 10px;
+    color: white;
+    border-radius: 4px;
+    align-items: center;
+    flex-flow: row;
+    justify-content: space-around;
+    display: flex;
+    min-width: 180px;
+    transition: .4s all ease-in;
+}
+.button-adiconar:hover{
+    background-color: #00A651;
+}
+.product-container .tabela-dados{
+    margin-top: 30px;
+}
